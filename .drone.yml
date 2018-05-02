@@ -1,0 +1,3 @@
+pipeline:
+  drone_test:
+    image: hello-world

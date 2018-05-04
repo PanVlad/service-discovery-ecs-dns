@@ -1,5 +1,5 @@
 pipeline:
-  drone_test:
+  drone_test_s3:
     image: garland/aws-cli-docker
     commands:
       - aws s3 ls s3://cf-templates-w7tj4bd8li1j-eu-west-1/
